@@ -219,15 +219,23 @@ ul#nav li.current a { color: #fdfa46; }
    font: 24px 'librebaskerville';
    margin-top: 6px;
 }
-.ed_info, .work_info, .skills_message {
+.ed_info, .work_info {
    font-size: large;
    color:rgb(26, 24, 24)
 }
+.skills_list {
+   font-size: large;
+   font-weight: 400;
+   color:rgb(26, 24, 24);
+}
+.skills_list strong {
+   font-size: medium;
+}
 .skill_icons {
    display: flex;
-   margin: 0;
    height: 65px;
 }
+
 
 /*Portfolio Section*/
 #portfolio {

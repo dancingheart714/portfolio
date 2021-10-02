@@ -44,7 +44,7 @@
       ]
     },
     "resume": {
-      "skillmessage":"My current skill set includes Agile Project Management, Asynchronous JavaScript, Authentication, Automated Unit Testing, Computer Architecture, Data Structures, Debugging, Deployment, End-to-End testing, ExpressJS, LESS, NodeJS, Postgres, React, Redux, Relational Databases, Teamwork and Collaboration",
+      
       "education": [
         {
           "school": "Lambda School",

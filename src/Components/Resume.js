@@ -4,7 +4,7 @@ class Resume extends Component {
   render() {
 
     if(this.props.data){
-      var skillmessage = this.props.data.skillmessage;
+      
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
@@ -15,12 +15,7 @@ class Resume extends Component {
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p className="work_info">{work.description}</p>
         </div>
-      })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{ width: skills.level }} className={className}></span><em>{skills.name}</em></li>
-      })
-      
+      })  
     }
 
     return (
@@ -52,35 +47,32 @@ class Resume extends Component {
         </div>
     </div>
 
-
+      
 
       <div className="row skill">
-
+        
          <div className="three columns header-col">
             <h1><span>Skills</span></h1>
          </div>
-
          <div className="nine columns main-col">
-
-          <p className="skills_message">{skillmessage}
-            </p>
+            <h3 className="skills_message">My current skill set includes:</h3>
+              <ul className="skills_list">
+                <li>Agile Project Management</li><li>Authentication</li> <li>Automated Unit Testing</li><li>Computer Architecture</li><li>Data Structures</li> <li>Debugging</li><li>Deployment</li><li>End-to-End testing</li><li>Relational Databases</li><li>Teamwork and Collaboration</li><strong><li>Express</li><li>HTML5</li><li>CSS</li><li>JavaScript</li> <li>React</li><li>PostgreSQL</li><li>Redux</li><li>NodeJS</li><li>Python</li><li>GitHub</li><li>VS Code</li></strong>
+              </ul>
+                    
     <div class="skill_icons">
-    <img src="https://img.icons8.com/color/2x/html-5.png"/>
-    <img src="https://img.icons8.com/color/2x/css.png"/> 
-    <img src="https://img.icons8.com/color/2x/javascript.png"/>  
-    <img src="https://img.icons8.com/ultraviolet/2x/react.png"/> 
-    <img src="https://img.icons8.com/color/48/000000/postgreesql.png"/>
-    <img src="https://img.icons8.com/color/2x/redux.png"/>  
-    <img src="https://img.icons8.com/color/2x/nodejs.png"/> 
-    <img src="https://img.icons8.com/color/2x/python.png"/> 
-    <img src="https://img.icons8.com/ios-glyphs/2x/github-2.png"/> 
-    <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>
-    </div>        
-            <div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
+    <img src="https://img.icons8.com/color/2x/html-5.png"alt="icon"/>
+    <img src="https://img.icons8.com/color/2x/css.png" alt="icon"/>
+    <img src="https://img.icons8.com/color/2x/javascript.png" alt="icon"/>  
+    <img src="https://img.icons8.com/ultraviolet/2x/react.png" alt="icon"/> 
+    <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="icon"/>
+    <img src="https://img.icons8.com/color/2x/redux.png" alt="icon"/>  
+    <img src="https://img.icons8.com/color/2x/nodejs.png" alt="icon"/> 
+    <img src="https://img.icons8.com/color/2x/python.png" alt="icon"/> 
+    <img src="https://img.icons8.com/ios-glyphs/2x/github-2.png" alt="icon"/>
+    <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="icon"/>
+    </div> 
+
 			</div>
       </div>
    </section>
