@@ -62,10 +62,21 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
 
-            <p className="skills_message">{skillmessage}
+          <p className="skills_message">{skillmessage}
             </p>
-
-				<div className="bars">
+    <div class="skill_icons">
+    <img src="https://img.icons8.com/color/2x/html-5.png"/>
+    <img src="https://img.icons8.com/color/2x/css.png"/> 
+    <img src="https://img.icons8.com/color/2x/javascript.png"/>  
+    <img src="https://img.icons8.com/ultraviolet/2x/react.png"/> 
+    <img src="https://img.icons8.com/color/48/000000/postgreesql.png"/>
+    <img src="https://img.icons8.com/color/2x/redux.png"/>  
+    <img src="https://img.icons8.com/color/2x/nodejs.png"/> 
+    <img src="https://img.icons8.com/color/2x/python.png"/> 
+    <img src="https://img.icons8.com/ios-glyphs/2x/github-2.png"/> 
+    <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>
+    </div>        
+            <div className="bars">
 				   <ul className="skills">
 					  {skills}
 					</ul>

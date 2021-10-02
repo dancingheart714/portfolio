@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import ParticlesBg from "particles-bg";
+import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
 class Header extends Component {
@@ -17,7 +17,7 @@ class Header extends Component {
 
     return (
        <header id="home">
-          {/* <ParticlesBg type="circle" bg={true} /> */}
+          <ParticlesBg type="circle" bg={true} />
 
       <nav id="nav-wrap">
 

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ParticlesBg from "particles-bg";
+
 
 class Testimonials extends Component {
   render() {
@@ -14,8 +16,9 @@ class Testimonials extends Component {
       })
     }
 
-    return (
-      <section id="testimonials">
+     return (
+        <section id="testimonials">
+         <ParticlesBg type="circle" bg={true} />
       <div className="text-container">
          <div className="row">
 
