@@ -42,8 +42,6 @@ header .banner-text h3 {
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #070563;
-   font-size: xx-large;
    font-weight: 700;
 }
 header .banner-text hr {
@@ -134,7 +132,7 @@ ul#nav li a {
 	text-decoration: none;
    text-align: left;
    color: white;
-   font-size:x-large;
+   font-size: large;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
@@ -165,7 +163,7 @@ ul#nav li.current a { color: #fdfa46; }
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
-   width: 58.33333%;
+   width: 50.33333%;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
@@ -258,6 +256,12 @@ ul#nav li.current a { color: #fdfa46; }
    background: #fff;
    overflow: hidden;
    position: relative;
+
+   -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 .portfolio-item .item-wrap a {
    display: block;

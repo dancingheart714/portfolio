@@ -39,9 +39,9 @@ class Header extends Component {
              <div className="banner-text">
                 <Fade bottom>
                 
-            <h1 className="responsive-headline">I'm {name}</h1>
+            <h1 className="responsive-headline">{name}</h1>
             </Fade>
-            <h3>I'm a {state} based <span>{occupation}</span>. {description}.</h3>
+            <h3>I'm a {state} - based <span>{occupation}</span>. {description}.</h3>
                 <hr />
                 <Fade bottom duration={2000}>
             <ul className="social">

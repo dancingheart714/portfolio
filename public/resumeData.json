@@ -2,7 +2,7 @@
     "main": {
       "name": "Leah King",
       "occupation": "Full Stack Developer",
-      "description": "The experiences that I've had in my career have made me who I am today. I am a person who builds relationships, can adapt to change, and I love learning and teaching others. I consider myself a creative soul and I love the process of using the screen as my canvas",
+      "description": "My career experiences have made me who I am today - a relationship builder who is adaptable to change with a love of learning and teaching others. I consider myself a creative soul and I enjoy the process of using the screen as my canvas",
       "image": "profilepic.jpg",
       "bio": "My path to becoming a full stack web developer has been an interesting one! My original carrer direction was law or social work but through a series of interesting turns I ended up with an MBA and being a minister - go figure that one! My background has provided me with lots of experience managing people and teams and I hope to  incorporate this into my tech career.  In addition to web development, I own an Etsy shop that specializes in kawaii stationary, washi tape and planner supplies.  A few of my favorite things are: Cats 🐱 Reading 📚 Coffee ☕ Sanrio characters ❤️ and, of course, Coding 👩‍💻 ",
       "contactmessage": "Thank you for taking time to visit my site. Let's connect!",
@@ -85,7 +85,7 @@
         {
             "title": "Spacetagram",
             "category": "A project built for the Winter 2022 Shopify Intern Challenge",
-            "image": "./images/portfolio/spacetagram.png",
+            "image": "spacetagram.png",
             "url": "https://614a43eaf418c90008431fb4--distracted-gates-35ce90.netlify.app/"
           },  
         {
