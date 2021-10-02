@@ -433,17 +433,16 @@ ul#nav li.current a { color: #fdfa46; }
    color: #636363;
    font-size: 17px;
 }
-/*#
+
 call-to-action .button {
 	color:#fff;
    background: #0D0D0D;
 }
-*/
-/* #call-to-action .button:hover,
+#call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
    color: #0D0D0D;
-} */
+}
 #call-to-action p span {
 	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
@@ -495,7 +494,7 @@ call-to-action .button {
 #testimonials blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
-   font-size: 30px;
+   font-size: 25px;
    font-weight:500;
    line-height: 48px;
    color: black
