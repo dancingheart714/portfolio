@@ -9,7 +9,8 @@
     "react-dom": "^16.2.0",
     "react-ga": "^2.7.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "react-zmage": "^0.8.5-beta.37"
   },
   "scripts": {
     "start": "react-scripts start",
