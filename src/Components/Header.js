@@ -5,12 +5,10 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
-    const state = this.props.data.state;
     const occupation = this.props.data.occupation;
-     var networks = this.props.data.social.map(function (network) {
+    const networks = this.props.data.social.map(function (network) {
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
      })
 
