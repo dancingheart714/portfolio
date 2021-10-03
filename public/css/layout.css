@@ -29,13 +29,14 @@ header .banner-text {
    width: 100%; 
 }
 header .banner-text h1 {
-   font: 1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #070563;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 36px 'librebaskerville-regular', serif;
+   font: 36px/1.9em 'librebaskerville-regular', serif;
    color: black;
    margin: 0 auto;
    width: 75%;
@@ -54,19 +55,16 @@ header .banner-text hr {
 header .social {
    margin: 24px 0;
    padding: 0;
-   font-size: 50px;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 header .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
 }
-header .social li a {
-   color: #070563; 
-}
-header .social li a:hover {
-   color: white; 
-}
+header .social li a { color: #070563; }
+header .social li a:hover { color: white; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -76,11 +74,16 @@ header .scrolldown a {
    margin-left: -29px;
    color: #070563;
    display: block;
-   height: 100px;
-   width: 100px;
-   font-size: 62px;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
    line-height: 42px;
    border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover {
    color: white; 
@@ -127,12 +130,18 @@ ul#nav li {
 /* Links */
 ul#nav li a {
    display: inline-block;
-   padding: 10px 13px;
+   padding: 8px 13px;
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
    color: white;
    font-size: large;
+
+   -webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
@@ -147,19 +156,18 @@ ul#nav li.current a { color: #fdfa46; }
    overflow: hidden;
 }
 #about h2 {
-   font: 36px 'opensans-bold', sans-serif;
+   font: 22px/30px 'opensans-bold', sans-serif;
    color: rgb(26, 24, 24);
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
    color: rgb(26, 24, 24);
-   font-size: large;
 }
 #about .profile-pic {
    position: relative;
-   width: 220px;
-   height: 240px;
+   width: 120px;
+   height: 120px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -187,11 +195,19 @@ ul#nav li.current a { color: #fdfa46; }
    padding-bottom: 72px;
    overflow: hidden;
 }
+#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a:hover, #resume a:focus { color: #313131; }
+
 #resume h1 {
-   font: 30px 'opensans-bold', sans-serif;
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
+#resume h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
 #resume h3 {
    font: 25px/32px 'opensans-bold', sans-serif;
 }
@@ -204,7 +220,7 @@ ul#nav li.current a { color: #fdfa46; }
    border-bottom: 4px solid #070563;
 }
 #resume .info {
-   font: 24px/30px 'librebaskerville-italic', serif;
+   font: 16px/24px 'librebaskerville-italic', serif;
    color: black;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -214,7 +230,7 @@ ul#nav li.current a { color: #fdfa46; }
    margin-left: 5px;
 }
 #resume .date {
-   font: 24px 'librebaskerville';
+   font: 15px/24px 'librebaskerville';
    margin-top: 6px;
 }
 .ed_info, .work_info {
@@ -323,7 +339,14 @@ ul#nav li.current a { color: #fdfa46; }
 	transition: opacity 0.3s ease-in-out;
 
    background: url(../images/overlay-bg.png) repeat;
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-left: -15px;
+   margin-top: -15px;
 }
+
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;
