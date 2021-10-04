@@ -1,10 +1,4 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Default Stylesheet
-*   url: styleshout.com
-*   03-17-2014
-=====================================================================
-
 TOC:
 a. Webfonts and Icon fonts
 b. Reset
@@ -687,7 +681,7 @@ input[type="checkbox"] { display: inline; }
 /* block grids
 --------------------------------------------------------------------- */
 .bgrid-sixths [class*="column"]   { width: 16.66667%; }
-.bgrid-quarters [class*="column"] { width: 45%; }
+.bgrid-quarters [class*="column"] { width: 25%; }
 .bgrid-thirds [class*="column"]   { width: 33.33333%; }
 .bgrid-halves [class*="column"]   { width: 50%; }
 
