@@ -9,7 +9,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "1.0.17",
+    "react-scripts": "^2.0.0-next.a671462c",
     "react-zmage": "^0.8.5-beta.37"
   },
   "scripts": {
