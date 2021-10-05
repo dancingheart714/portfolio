@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
-import Fade from "react-reveal";
 
 class Header extends Component {
   render() {
