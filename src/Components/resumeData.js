@@ -50,7 +50,7 @@ const resumeData =  {
           "school": "Lambda School",
           "degree": "Full Stack Web Development",
           "graduated": "August 2021",
-          "description": "-Completed full-stack web development curriculum, and demonstrated mastery of content through weekly assessments; -Completed front-end and back-end projects during my web development portion of the curriculum; -Completed computer science curriculum, and demonstrated mastery of the content; -Completed Lambda Labs apprenticeship.  Passed final assessments and interview demonstrating my technical and professional proficiencies."
+          "description": "Completed full-stack web development curriculum, and demonstrated mastery of content through weekly assessments;   Completed front end and back end projects during my web development portion of the curriculum;   Completed computer science curriculum, and demonstrated mastery of the content; Completed Lambda Labs apprenticeship.Passed final assessments and interview demonstrating my technical and professional proficiencies."
         },
         {
           "school": "University of Phoenix",
