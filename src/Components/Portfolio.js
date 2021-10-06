@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import Zmage from "react-zmage";
 
 let id = 0;
 class Portfolio extends Component {
