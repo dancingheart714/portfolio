@@ -106,48 +106,42 @@ const resumeData =  {
             "image": "movie-api.png",
             "url": "https://github.com/dancingheart714/movie-api"
           },
-      //   {
-      //       "title": "Quiz App",
-      //       "category": "A fun little app using HTML, CSS & JavaScript",
-      //       "image": "quiz.png",
-      //       "url": "https://github.com/dancingheart714/Quiz-App"
-      //     },
-      //   {
-      //     "title": "React Router Movies",
-      //     "category": "A project I built using React Router that displays selected movie info ",
-      //     "image": "react-router-movies.png",
-      //     "url": "https://github.com/dancingheart714/React-Router-Movies"
-      //   },
+        {
+            "title": "Quiz App",
+            "category": "A fun little app using HTML, CSS & JavaScript",
+            "image": "quiz.png",
+            "url": "https://github.com/dancingheart714/Quiz-App"
+          },
+        {
+          "title": "React Router Movies",
+          "category": "A project I built using React Router that displays selected movie info ",
+          "image": "react-router-movies.png",
+          "url": "https://github.com/dancingheart714/React-Router-Movies"
+        },
        
-      //   {
-      //     "title": "Newsfeed",
-      //     "category": "A project focused on React components",
-      //     "image": "newsfeed-components.png",
-      //     "url": "https://github.com/dancingheart714/Newsfeed-Components"
-      //   },
-      //   {
-      //     "title": "InstaClone",
-      //     "category": "A React components project.",
-      //     "image": "InstaClone.png",
-      //     "url": "https://github.com/dancingheart714/React-Components-Insta-Clone"
-      //   },
-      // {
-      //       "title": "ToDo List",
-      //       "category": "A todo list app that utilizes React hooks",
-      //       "image": "react-hooks-todo.png",
-      //       "url": "https://github.com/dancingheart714/react-hooks-todo"
-      //     }      
+        {
+          "title": "Newsfeed",
+          "category": "A project focused on React components",
+          "image": "newsfeed-components.png",
+          "url": "https://github.com/dancingheart714/Newsfeed-Components"
+        },
+        {
+          "title": "InstaClone",
+          "category": "A React components project.",
+          "image": "InstaClone.png",
+          "url": "https://github.com/dancingheart714/React-Components-Insta-Clone"
+        }     
       ]
     },
     "testimonials": {
       "testimonials": [
         {
-          "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-          "user": "Kareem Abdul Jabbar"
+          "text": "A nice thing will go here.",
+          "user": "Someone Nice"
         },
         {
-          "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-          "user": "Steve Wozniak... impersonator"
+          "text": "Another nice thing!",
+          "user": "Another nice person"
         }
       ]
     }

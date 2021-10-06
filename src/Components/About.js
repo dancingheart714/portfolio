@@ -28,18 +28,23 @@ class About extends Component {
             <h2>About Me</h2>
            
                <p>"My path to becoming a full stack web developer has been an interesting one! My original carrer direction was law or social work but through a series of interesting turns I ended up with an MBA and being a minister - go figure that one! My background has provided me with lots of experience managing people and teams and I hope to  incorporate this into my tech career.</p>
-               <p>In addition to web development, I own an Etsy shop that specializes in kawaii stationary, washi tape and planner supplies.  A few of my favorite things are:     
-               Cats  {''}<Emoji symbol="😺" label="cat" />{''}
-               Reading  {''}<Emoji symbol="📚" label="books" /> {''}
-               Coffee  {''}<Emoji symbol ="☕" label="coffee" /> {''}
-               Sanrio characters  {''}<Emoji symbol="💞" label="hearts" /> {''}
-               and, of course,
-               Coding  {''}<Emoji symbol="👩‍💻" label="computer" /> {''}
-               </p>
-                   
+               <p>In addition to web development, I own an Etsy shop that specializes in kawaii stationary, washi tape and planner supplies.</p>
+               <p>A few of my favorite things are:
+               <ul>    
+                     <li>Cats  {''}<Emoji symbol="😺" label="cat" />{''}</li>
+                         
+                     <li>Reading  {''}<Emoji symbol="📚" label="books" /> {''}</li>
+                         
+                     <li>Coffee  {''}<Emoji symbol="☕" label="coffee" /> {''}</li>
+                         
+                     <li>Sanrio characters  {''}<Emoji symbol="💞" label="hearts" /> {''}  and, of course,</li>
+                         
+                     <li>Coding  {''}<Emoji symbol="👩‍💻" label="computer" /> {''}</li>                      
+               </ul>
+               </p>  
             <div className="row">
                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>My Contact Details</h2>
                   <p className="address">
 						   <span>{name}</span>				
                    <br />
@@ -51,7 +56,7 @@ class About extends Component {
                <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button">
-                     <i className="fa fa-download"></i>Download Resume</a>
+                     <i className="fa fa-download"></i>Download My Resume</a>
                   </p>
                </div>
             </div>
