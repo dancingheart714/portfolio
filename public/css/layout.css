@@ -277,7 +277,7 @@ ul#nav li.current a { color: #fdfa46; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 24px/30px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -290,9 +290,7 @@ ul#nav li.current a { color: #fdfa46; }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
-
-   width: 100%;
-   height: 100%;
+   position: relative;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -300,11 +298,11 @@ ul#nav li.current a { color: #fdfa46; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
 }
+
 /* overlay */
 .portfolio-item .item-wrap .overlay {
    position: absolute;
@@ -313,24 +311,17 @@ ul#nav li.current a { color: #fdfa46; }
    width: 100%;
    height: 100%;
 
-	   opacity: 0;
-	   -moz-opacity: 0;
-	   filter:alpha(opacity=0);
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
 
-      -webkit-transition: opacity 0.3s ease-in-out;
-	   -moz-transition: opacity 0.3s ease-in-out;
-	   -o-transition: opacity 0.3s ease-in-out;
-	   transition: opacity 0.3s ease-in-out;
+   -webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
 
    background: url(../images/overlay-bg.png) repeat;
-
-   /* position: absolute;
-   top: 50%;
-   left: 50%;
-   margin-left: -15px;
-   margin-top: -15px;  */
 }
-
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;
@@ -340,14 +331,14 @@ ul#nav li.current a { color: #fdfa46; }
    line-height: 30px;
    text-align: center;
 
-      opacity: 0;
-	   -moz-opacity: 0;
-	   filter:alpha(opacity=0);
+   opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
 
-      -webkit-transition: opacity 0.3s ease-in-out;
-	   -moz-transition: opacity 0.3s ease-in-out;
-	   -o-transition: opacity 0.3s ease-in-out;
-	   transition: opacity 0.3s ease-in-out;
+   -webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
 
    position: absolute;
    top: 50%;
@@ -368,6 +359,7 @@ ul#nav li.current a { color: #fdfa46; }
    color: #c6c7c7;
    margin-bottom: 0;
 }
+
 /* on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;
@@ -379,6 +371,7 @@ ul#nav li.current a { color: #fdfa46; }
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
+
 /* popup modal */
 .popup-modal {
 	max-width: 550px;
@@ -424,7 +417,8 @@ ul#nav li.current a { color: #fdfa46; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
-/* fadein/fadeout effect for modal popup*/
+/* fadein/fadeout effect for modal popup
+/* ------------------------------------------------------------------ */
 
 /* content at start */
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
@@ -443,7 +437,10 @@ ul#nav li.current a { color: #fdfa46; }
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
-/* f. Call To Action Section */
+
+/* ------------------------------------------------------------------ */
+/* f. Call To Action Section
+/* ------------------------------------------------------------------ */
 
 #call-to-action {
    background: #212121;
@@ -482,11 +479,12 @@ ul#nav li.current a { color: #fdfa46; }
    color: #636363;
    font-size: 17px;
 }
-
+/*#
 call-to-action .button {
 	color:#fff;
    background: #0D0D0D;
 }
+*/
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
@@ -496,7 +494,6 @@ call-to-action .button {
 	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
-
 /* TESTIMONIALS SECTION */
 
 #testimonials {

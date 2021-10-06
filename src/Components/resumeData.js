@@ -106,37 +106,37 @@ const resumeData =  {
             "image": "movie-api.png",
             "url": "https://github.com/dancingheart714/movie-api"
           },
-        {
-            "title": "Quiz App",
-            "category": "A fun little app using HTML, CSS & JavaScript",
-            "image": "quiz.png",
-            "url": "https://github.com/dancingheart714/Quiz-App"
-          },
-        {
-          "title": "React Router Movies",
-          "category": "A project I built using React Router that displays selected movie info ",
-          "image": "react-router-movies.png",
-          "url": "https://github.com/dancingheart714/React-Router-Movies"
-        },
+      //   {
+      //       "title": "Quiz App",
+      //       "category": "A fun little app using HTML, CSS & JavaScript",
+      //       "image": "quiz.png",
+      //       "url": "https://github.com/dancingheart714/Quiz-App"
+      //     },
+      //   {
+      //     "title": "React Router Movies",
+      //     "category": "A project I built using React Router that displays selected movie info ",
+      //     "image": "react-router-movies.png",
+      //     "url": "https://github.com/dancingheart714/React-Router-Movies"
+      //   },
        
-        {
-          "title": "Newsfeed",
-          "category": "A project focused on React components",
-          "image": "newsfeed-components.png",
-          "url": "https://github.com/dancingheart714/Newsfeed-Components"
-        },
-        {
-          "title": "InstaClone",
-          "category": "A React components project.",
-          "image": "InstaClone.png",
-          "url": "https://github.com/dancingheart714/React-Components-Insta-Clone"
-        },
-        {
-            "title": "ToDo List",
-            "category": "A todo list app that utilizes React hooks",
-            "image": "react-hooks-todo.png",
-            "url": "https://github.com/dancingheart714/react-hooks-todo"
-          }    
+      //   {
+      //     "title": "Newsfeed",
+      //     "category": "A project focused on React components",
+      //     "image": "newsfeed-components.png",
+      //     "url": "https://github.com/dancingheart714/Newsfeed-Components"
+      //   },
+      //   {
+      //     "title": "InstaClone",
+      //     "category": "A React components project.",
+      //     "image": "InstaClone.png",
+      //     "url": "https://github.com/dancingheart714/React-Components-Insta-Clone"
+      //   },
+      // {
+      //       "title": "ToDo List",
+      //       "category": "A todo list app that utilizes React hooks",
+      //       "image": "react-hooks-todo.png",
+      //       "url": "https://github.com/dancingheart714/react-hooks-todo"
+      //     }      
       ]
     },
     "testimonials": {
