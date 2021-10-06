@@ -91,44 +91,44 @@ const resumeData =  {
         {
             "title": "React Plants",
             "category": "A storefront built with React",
-            "image": "advanced-react.png",
+            "image": "02.jpg",
             "url": "https://github.com/dancingheart714/web-sprint-challenge-advanced-react"
           },  
         {
           "title": "Food Truck Foodie",
           "category": "A team build project using React where my contribution was on front-end",
-          "image": "food-truck-foodie.png",
+          "image": "03.jpg",
           "url": "https://github.com/FoodTruckBuildWeek/FoodTruckFrontEnd"
         },
         {
             "title": "Movies API",
             "category": "An app I built that pulls the top five movies from an api",
-            "image": "movie-api.png",
+            "image": "04.jpg",
             "url": "https://github.com/dancingheart714/movie-api"
           },
         {
             "title": "Quiz App",
             "category": "A fun little app using HTML, CSS & JavaScript",
-            "image": "quiz.png",
+            "image": "05.jpg",
             "url": "https://github.com/dancingheart714/Quiz-App"
           },
         {
           "title": "React Router Movies",
           "category": "A project I built using React Router that displays selected movie info ",
-          "image": "react-router-movies.png",
+          "image": "06.jpg",
           "url": "https://github.com/dancingheart714/React-Router-Movies"
         },
        
         {
           "title": "Newsfeed",
           "category": "A project focused on React components",
-          "image": "newsfeed-components.png",
+          "image": "07.jpg",
           "url": "https://github.com/dancingheart714/Newsfeed-Components"
         },
         {
           "title": "InstaClone",
           "category": "A React components project.",
-          "image": "InstaClone.png",
+          "image": "08.jpg",
           "url": "https://github.com/dancingheart714/React-Components-Insta-Clone"
         }     
       ]
