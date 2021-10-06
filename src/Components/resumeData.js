@@ -85,7 +85,7 @@ const resumeData =  {
         {
             "title": "Spacetagram",
             "category": "A project built for the Winter 2022 Shopify Intern Challenge",
-            "image": "spacetagram.png",
+            "image": "01.jpg",
             "url": "https://614a43eaf418c90008431fb4--distracted-gates-35ce90.netlify.app/"
           },  
         {
