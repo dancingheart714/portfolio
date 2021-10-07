@@ -27,7 +27,7 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
            
-               <p>"My path to becoming a full stack web developer has been an interesting one! My original carrer direction was law or social work but through a series of interesting turns I ended up with an MBA and being a minister - go figure that one! My background has provided me with lots of experience managing people and teams and I hope to  incorporate this into my tech career.</p>
+               <p>My path to becoming a full stack web developer has been an interesting one! My original career direction was law or social work but through a series of interesting turns I ended up with an MBA and being a minister - go figure that one! My background has provided me with lots of experience managing people and teams and I hope to  incorporate this into my tech career.</p>
                <p>In addition to web development, I own an Etsy shop that specializes in kawaii stationary, washi tape and planner supplies.</p>
                <p>A few of my favorite things are:
                <ul>    
@@ -41,7 +41,8 @@ class About extends Component {
                          
                      <li>Coding  {''}<Emoji symbol="👩‍💻" label="computer" /> {''}</li>                      
                </ul>
-               </p>  
+                   </p>
+               <p>I enjoy using React to develop interactive and responsive front end user-centric web applications.  I also create backend applications in Node and Express.  I thrive in environments where there is collaboration, constant learning and "failure" is seen as part of the growth experience.  I'm dependable and hard working; I can communicate effectively whether it be with a team or stakeholders;  I value a sense of humor, creating relationship and I firmly believe in the synergistic power of teamwork! </p> 
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>

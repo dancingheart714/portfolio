@@ -56,7 +56,8 @@ class Resume extends Component {
          </div>
          <div className="nine columns main-col">
             <h3 className="skills_message">My current skill set includes:</h3>
-              <ul className="skills_list">
+            <p>                     </p>  
+            <ul className="skills_list">
                 <li>Agile Project Management</li><li>Authentication</li> <li>Automated Unit Testing</li><li>Computer Architecture</li><li>Data Structures</li> <li>Debugging</li><li>Deployment</li><li>End-to-End testing</li><li>Relational Databases</li><li>Teamwork and Collaboration</li><strong><li>Express</li><li>HTML5</li><li>CSS</li><li>JavaScript</li> <li>React</li><li>PostgreSQL</li><li>Redux</li><li>NodeJS</li><li>Python</li><li>GitHub</li><li>VS Code</li></strong>
               </ul>
                     
