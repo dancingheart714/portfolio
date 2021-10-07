@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
+import Img from '../meme1.jpg';
+import Img2 from '../meme2.jpg'
 
 class Contact extends Component {
   render() {
@@ -14,12 +16,14 @@ class Contact extends Component {
       <section id="contact">
         <Fade bottom duration={1000}>
           <div className="row section-head">
+           
             <div className="two columns header-col">
+           
               <h1>
                 <span>Get In Touch</span>
               </h1>
             </div>
-
+            
             <div className="ten columns">
               <p className="lead">{message}</p>
             </div>
@@ -109,7 +113,12 @@ class Contact extends Component {
                          <br/>
                         {email}
                         <br/>
-                        <span>{phone}</span>
+                  <span>{phone}</span>
+                  <p>              </p>
+                  <div>
+                  <img src={Img} alt="meme" />
+                  <img src={ Img2 } alt="meme" />
+                  </div>
                 </p>
               </div>
             </aside>

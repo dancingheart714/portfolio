@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /*
 Content:
    a. General Styles
@@ -45,14 +48,14 @@ header:before {
 header .banner-text { width: 100%; }
 
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'Merriweather', serif;
    color: #070563;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 24px/1.9em 'librebaskerville-regular', serif;
+   font: 24px/1.9em 'roboto', sans-serif;
    color: black;
    margin: 0 auto;
    width: 70%;
@@ -173,19 +176,21 @@ ul#nav li.current a { color: #fdfa46; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 30px/30px 'opensans-bold', sans-serif;
+   font: 30px/30px 'Merriweather', serif;
+   font-weight:800;
    color: rgb(26, 24, 24);
    margin-bottom: 12px;
 }
 #about p {
+   font: 24px/30px 'roboto', sans-serif;
    font-size: large;
    line-height: 30px;
    color: rgb(26, 24, 24);
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 150px;
+   height: 150px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -217,7 +222,8 @@ ul#nav li.current a { color: #fdfa46; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
-   font: 20px/24px 'opensans-bold', sans-serif;
+   font: 30px/24px 'Merriweather', serif;
+   font-weight: 700;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -227,7 +233,8 @@ ul#nav li.current a { color: #fdfa46; }
 }
 
 #resume h3 {
-   font: 24px/32px 'opensans-bold', sans-serif;
+   font: 28px/32px 'Merriweather', serif;
+   font-weight: 700;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -239,7 +246,7 @@ ul#nav li.current a { color: #fdfa46; }
    border-bottom: 4px solid #070563;
 }
 #resume .info {
-   font: 20px/24px 'librebaskerville-italic', serif;
+   font: 24px/24px 'roboto', sans-serif;
    color: black;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -249,7 +256,7 @@ ul#nav li.current a { color: #fdfa46; }
    margin-left: 5px;
 }
 #resume .date {
-   font: 18px/24px 'librebaskerville';
+   font: 20px/24px 'roboto', sans-serif;
    margin-top: 6px;
 }
 .ed_info, .work_info {
@@ -277,7 +284,7 @@ ul#nav li.current a { color: #fdfa46; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 24px/30px 'opensans-semibold', sans-serif;
+   font: 30px/30px 'Merriweather', serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -314,7 +321,7 @@ ul#nav li.current a { color: #fdfa46; }
    padding-bottom: 48px;
 }
 #call-to-action h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'roboto', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -373,7 +380,7 @@ ul#nav li.current a { color: #fdfa46; }
    background-color: #ffffff54;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 14px/24px 'Merriweather', serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: black;
@@ -384,11 +391,11 @@ ul#nav li.current a { color: #fdfa46; }
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
-	font-size: 72px;
+	font-size: 52px;
    line-height: 72px;
    text-align: left;
    float: left;
-   color: black;
+   color: whitesmoke;
 }
 
 /*	Blockquotes */
@@ -399,16 +406,17 @@ ul#nav li.current a { color: #fdfa46; }
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
+   font-family: 'roboto', sans-serif;
    padding: 0;
-   font-size: 25px;
+   font-size: 30px;
    font-weight:500;
    line-height: 48px;
    color: black
 }
 #testimonials blockquote cite {
    display: block;
-   font-size: 18px;
+   font-family: 'Merriweather', serif;
+   font-size: 20px;
    font-style: normal;
    font-weight: 400;
    line-height: 18px;
@@ -431,7 +439,7 @@ ul#nav li.current a { color: #fdfa46; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 24px/70px 'opensans-bold', sans-serif;
+   font: 34px/70px 'Merriweather', serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -450,12 +458,17 @@ ul#nav li.current a { color: #fdfa46; }
 }
 
 #contact h4 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 22px/24px 'Merriweather', serif;
+   font-weight: 600;
    color: #070563;
    margin-bottom: 6px;
 }
+#contact .address {
+   font: 20px 'roboto', sans-serif;
+}
+
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 28px/36px 'roboto', sans-serif;
    padding-right: 3%;
    color: #070563;
    font-weight: 800px;
@@ -466,7 +479,8 @@ ul#nav li.current a { color: #fdfa46; }
 /* contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 20px/24px 'Merriweather', serif;
+   font-weight: 600;
    margin: 12px 0;
    color: #070563;
 	float: left;

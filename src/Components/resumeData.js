@@ -136,12 +136,16 @@ const resumeData =  {
     "testimonials": {
       "testimonials": [
         {
-          "text": "A nice thing will go here.",
-          "user": "Someone Nice"
+          "text": "There are three responses to a piece of design - yes, no, and WOW! Wow is the one to aim for.",
+          "user": "Milton Glaser"
         },
         {
-          "text": "Another nice thing!",
-          "user": "Another nice person"
+          "text": "It's not a bug.  It's an undocumented feature!🤣" ,
+          "user": "Anonymous"
+        },
+        {
+          "text": "First, solve the problem.  Then write the code." ,
+          "user": "John Johnson"
         }
       ]
     }
