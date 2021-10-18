@@ -310,7 +310,6 @@ ul#nav li.current a { color: #fdfa46; }
    cursor: pointer;
 }
 
-
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
@@ -630,3 +629,5 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: white; }
+
+
