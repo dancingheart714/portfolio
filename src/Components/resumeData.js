@@ -84,13 +84,13 @@ const resumeData =  {
       "projects": [
         {
             "title": "Spacetagram",
-            "category": "A project built for the Winter 2022 Shopify Intern Challenge",
+            "category": "This is a project that I built for the Winter 2022 Shopify Intern Challenge",
             "image": "01.jpg",
             "url": "https://614a43eaf418c90008431fb4--distracted-gates-35ce90.netlify.app/"
           },  
         {
             "title": "React Plants",
-            "category": "A storefront built with React",
+            "category": "This was a team project where we built a storefront with React.  I was solely responsible for the back-end work",
             "image": "02.jpg",
             "url": "https://github.com/dancingheart714/web-sprint-challenge-advanced-react"
           },  
@@ -105,7 +105,19 @@ const resumeData =  {
             "category": "An app I built that pulls the top five movies from an api",
             "image": "04.jpg",
             "url": "https://github.com/dancingheart714/movie-api"
-          }
+        },
+        {
+          "title": "Quiz App",
+          "category": "A fun little app using HTML, CSS & JavaScript",
+          "image": "05.jpg",
+          "url": "https://github.com/dancingheart714/Quiz-App"
+        },
+        {
+          "title": "Newsfeed",
+          "category": "A project focused on React components",
+          "image": "07.jpg",
+          "url": "https://github.com/dancingheart714/Newsfeed-Components"
+        }
       ]
     },
     "testimonials": {
