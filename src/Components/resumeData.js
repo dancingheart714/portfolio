@@ -105,32 +105,7 @@ const resumeData =  {
             "category": "An app I built that pulls the top five movies from an api",
             "image": "04.jpg",
             "url": "https://github.com/dancingheart714/movie-api"
-          },
-        {
-            "title": "Quiz App",
-            "category": "A fun little app using HTML, CSS & JavaScript",
-            "image": "05.jpg",
-            "url": "https://github.com/dancingheart714/Quiz-App"
-          },
-        {
-          "title": "React Router Movies",
-          "category": "A project I built using React Router that displays selected movie info ",
-          "image": "06.jpg",
-          "url": "https://github.com/dancingheart714/React-Router-Movies"
-        },
-       
-        {
-          "title": "Newsfeed",
-          "category": "A project focused on React components",
-          "image": "07.jpg",
-          "url": "https://github.com/dancingheart714/Newsfeed-Components"
-        },
-        {
-          "title": "InstaClone",
-          "category": "A React components project.",
-          "image": "08.jpg",
-          "url": "https://github.com/dancingheart714/React-Components-Insta-Clone"
-        }     
+          }
       ]
     },
     "testimonials": {
