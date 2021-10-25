@@ -14,7 +14,7 @@ const resumeData =  {
         "state": "South Carolina",
         "zip": "29687"
       },
-      "resumedownload": "https://drive.google.com/file/d/1maVkALu6rYAxf4BcUy67mGdJR2SRYMwc/view?usp=sharing",
+      "resumedownload": "https://drive.google.com/file/d/13uJiIGK7g-LPztEXeWZ_fJSzvjJWoknQ/view?usp=sharing",
       "social": [
         {
           "name": "facebook",
@@ -74,9 +74,9 @@ const resumeData =  {
         },
         {
           "company": "Unity of Greenville",
-          "title": "Interfaith, Co-Minister",
+          "title": "Program Manager (Non-Profit)",
           "years": "November 2007 - Present",
-          "description": "All aspects of pastoral/ministerial work"
+          "description": "All aspects of management in a non-profit setting"
         }
       ]
     },
