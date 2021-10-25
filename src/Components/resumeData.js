@@ -2,9 +2,9 @@ const resumeData =  {
     "main": {
       "name": "Leah King",
       "occupation": "Full Stack Developer",
-      "description": "My career experiences have made me who I am today - a relationship builder who is adaptable to change with a love of learning and teaching others. I consider myself a creative soul and I enjoy the process of using the screen as my canvas",
+      "description": "Welcome to my personal portfolio.  Take a peek and get to know me!  My career experiences have made me who I am, have shaped what I do and how I do it. I'm a relationship builder who is adaptable to change with a love of learning and teaching others and I use personal integrity and empathy as my Northern Stars",
       "image": "profilepic.jpg",
-      "bio": "My path to becoming a full stack web developer has been an interesting one! My original carrer direction was law or social work but through a series of interesting turns I ended up with an MBA and being a minister - go figure that one! My background has provided me with lots of experience managing people and teams and I hope to  incorporate this into my tech career.  In addition to web development, I own an Etsy shop that specializes in kawaii stationary, washi tape and planner supplies.  A few of my favorite things are: Cats 🐱 Reading 📚 Coffee ☕ Sanrio characters ❤️ and, of course, Coding 👩‍💻 ",
+      "bio": "My path to becoming a full stack web developer has been an exciting one! From my first day at Lambda School my mantra became 'I can, and I will do this!' That mantra drove me through the months of feeling as if I were drinking from a fire hose every single day. The amount of information and new skills that I was required to take on every day was mind-boggling. But, here I am a year later knowing how to design, connect, route, debug and so much more! I would not trade that experience for anything! I love what I am doing and the fact that I get to learn new things every day feeds the part of me that needs to be continually challenged. My background in the non-profit sector has provided me with lots of experience managing people and teams and I hope to incorporate this into my tech career.  In addition to web development, I own an Etsy shop that specializes in kawaii stationary, washi tape and planner supplies.  A few of my favorite things are: Cats 🐱 Reading 📚 Coffee ☕ Sanrio characters ❤️ and, of course, Coding 👩‍💻 ",
       "contactmessage": "Thank you for taking time to visit my site. Let's connect!",
       "email": "dancingheart714@gmail.com",
       "phone": "864-593-8382",
@@ -14,7 +14,7 @@ const resumeData =  {
         "state": "South Carolina",
         "zip": "29687"
       },
-      "resumedownload": "https://drive.google.com/file/d/13uJiIGK7g-LPztEXeWZ_fJSzvjJWoknQ/view?usp=sharing",
+      "resumedownload": "https://drive.google.com/file/d/1hDKCfRacpoe-d_18GXsvWwKi-kxWVMpI/view?usp=sharing",
       "social": [
         {
           "name": "facebook",
