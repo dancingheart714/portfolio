@@ -74,7 +74,7 @@ const resumeData =  {
         },
         {
           "company": "Unity of Greenville",
-          "title": "Program Manager (Non-Profit)",
+          "title": "Co-Minister & Program Manager (Non-Profit)",
           "years": "November 2007 - Present",
           "description": "All aspects of management in a non-profit setting"
         }
