@@ -14,7 +14,7 @@ const resumeData =  {
         "state": "South Carolina",
         "zip": "29687"
       },
-      "resumedownload": "https://drive.google.com/file/d/1hDKCfRacpoe-d_18GXsvWwKi-kxWVMpI/view?usp=sharing",
+      "resumedownload": "https://drive.google.com/file/d/11_F3mU8fh_oEnNKaBQ1QWpX9aceca_Rm/view?usp=sharing",
       "social": [
         {
           "name": "facebook",
