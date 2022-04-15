@@ -6,7 +6,7 @@ import Img2 from '../meme2.jpg'
 class Contact extends Component {
   render() {
     if (!this.props.data) return null;
-
+    var resumeDownload = this.props.data.resumedownload;
     const name = this.props.data.name;
     const email = this.props.data.email;
     const phone = this.props.data.phone;
@@ -120,10 +120,11 @@ class Contact extends Component {
                   <img src={ Img2 } alt="meme" />
                   </div>
                 </p>
-              </div>
+              </div>             
             </aside>
           </Slide>
         </div>
+       
       </section>
     );
   }

@@ -200,7 +200,7 @@ ul#nav li.current a { color: #fdfa46; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 10px;
-   background: #070563;
+   background: #f4059d;
 }
 #about .download .button:hover {
    background: #fff;
@@ -573,7 +573,7 @@ ul#nav li.current a { color: #fdfa46; }
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #1111b0; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {

@@ -55,13 +55,14 @@ class Resume extends Component {
             <h1><span>Skills</span></h1>
          </div>
          <div className="nine columns main-col">
-            <h3 className="skills_message">My current skill set includes:</h3>
+            <h3 className="skills_message">My skill set includes:</h3>
             <p>                     </p>  
             <ul className="skills_list">
-                <li>Agile Project Management</li><li>Authentication</li> <li>Automated Unit Testing</li><li>Computer Architecture</li><li>Data Structures</li> <li>Debugging</li><li>Deployment</li><li>End-to-End testing</li><li>Relational Databases</li><li>Teamwork and Collaboration</li><strong><li>Express</li><li>HTML5</li><li>CSS</li><li>JavaScript</li> <li>React</li><li>PostgreSQL</li><li>Redux</li><li>NodeJS</li><li>Python</li><li>GitHub</li><li>VS Code</li></strong>
+                <li>Certified Scrum Master </li><li>Agile Project Management</li><li>Authentication</li> <li>Automated Unit Testing</li><li>Project Management</li><li>Data Structures</li> <li>Debugging</li><li>Deployment</li><li>End-to-End testing</li><li>Relational Databases</li><li>Teamwork and Collaboration</li><li>Express</li><li>HTML5</li><li>CSS</li><li>JavaScript</li> <li>React</li><li>PostgreSQL</li><li>Redux</li><li>NodeJS</li><li>Python</li><li>GitHub</li><li>VS Code</li>
               </ul>
                     
-    <div class="skill_icons">
+  <div class="skill_icons">
+    <img src="images/seal-csm.png"/>           
     <img src="https://img.icons8.com/color/2x/html-5.png"alt="icon"/>
     <img src="https://img.icons8.com/color/2x/css.png" alt="icon"/>
     <img src="https://img.icons8.com/color/2x/javascript.png" alt="icon"/>  
@@ -71,12 +72,11 @@ class Resume extends Component {
     <img src="https://img.icons8.com/color/2x/nodejs.png" alt="icon"/> 
     <img src="https://img.icons8.com/color/2x/python.png" alt="icon"/> 
     <img src="https://img.icons8.com/ios-glyphs/2x/github-2.png" alt="icon"/>
-    <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="icon"/>
+    <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="icon" />           
     </div> 
-
-			</div>
-      </div>
-   </section>
+	</div>
+        </div>
+      </section>
     );
   }
 }

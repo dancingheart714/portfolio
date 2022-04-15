@@ -1,10 +1,10 @@
 const resumeData =  {
     "main": {
       "name": "Leah King",
-      "occupation": "Full Stack Developer",
-      "description": "Welcome to my personal portfolio.  Take a peek and get to know me!  My career experiences have made me who I am, have shaped what I do and how I do it. I'm a relationship builder who is adaptable to change with a love of learning and teaching others and personal integrity and empathy are my Northern Stars",
+      "occupation": "Full Stack Developer, Certified Scrum Master & Project Manager",
+      "description": "My career experiences have made me who I am, have shaped what I do and how I do it. I foster relationships and communication; I'm adaptable to change and help teams adapt to change;  I love learning, teaching, and empowering others; and, personal integrity and empathy are my Northern Stars. Take a look around and get to know me",
       "image": "profilepic.jpg",
-      "bio": "My path to becoming a full stack web developer has been an exciting one! From my first day at Lambda School my mantra became 'I can, and I will do this!' That mantra drove me through the months of feeling as if I were drinking from a fire hose every single day. The amount of information and new skills that I was required to take on every day was mind-boggling. But, here I am a year later knowing how to design, connect, route, debug and so much more! I would not trade that experience for anything! I love what I am doing and the fact that I get to learn new things every day feeds the part of me that needs to be continually challenged. My background in the non-profit sector has provided me with lots of experience managing people and teams and I hope to incorporate this into my tech career.  In addition to web development, I own an Etsy shop that specializes in kawaii stationary, washi tape and planner supplies.  A few of my favorite things are: Cats 🐱 Reading 📚 Coffee ☕ Sanrio characters ❤️ and, of course, Coding 👩‍💻 ",
+    "bio": "My path to becoming a full stack web developer has been an exciting one! From my first day at Lambda School my mantra became 'I can, and I will do this!' That mantra drove me through the months of feeling as if I were drinking from a fire hose every single day. The amount of information and new skills that I was required to take on every day was mind-boggling. But, here I am a year later knowing how to design, connect, route, debug and so much more! I would not trade that experience for anything! I love what I am doing and the fact that I get to learn new things every day feeds the part of me that needs to be continually challenged. My background as Co-Minister and Program Manager in the non-profit sector has provided me with lots of experience managing people and teams and I recently became a Certified Scrum Master!  In addition to web development, I own an Etsy shop that specializes in kawaii stationary, washi tape and planner supplies.  A few of my favorite things are: Cats 🐱 Reading 📚 Coffee ☕ Sanrio characters ❤️ and, of course, Coding 👩‍💻 ",
       "contactmessage": "Thank you for taking time to visit my site. Let's connect!",
       "email": "dancingheart714@gmail.com",
       "phone": "864-593-8382",
@@ -14,8 +14,9 @@ const resumeData =  {
         "state": "South Carolina",
         "zip": "29687"
       },
-      "resumedownload": "https://drive.google.com/file/d/1hDKCfRacpoe-d_18GXsvWwKi-kxWVMpI/view?usp=sharing",
-      "social": [
+      "resumedownload": "https://drive.google.com/file/d/11_F3mU8fh_oEnNKaBQ1QWpX9aceca_Rm/view?usp=sharing",
+      "social":
+    [
         {
           "name": "facebook",
           "url": "http://facebook.com/dancingheart714",
@@ -50,7 +51,7 @@ const resumeData =  {
           "school": "Lambda School",
           "degree": "Full Stack Web Development",
           "graduated": "August 2021",
-          "description": "Completed full-stack web development curriculum, and demonstrated mastery of content through weekly assessments;   Completed front end and back end projects during my web development portion of the curriculum;   Completed computer science curriculum, and demonstrated mastery of the content; Completed Lambda Labs apprenticeship.Passed final assessments and interview demonstrating my technical and professional proficiencies."
+          "description": "Completed full-stack web development curriculum, and demonstrated mastery of content through weekly assessments;Completed front end and back end projects during my web development portion of the curriculum; Completed computer science curriculum, and demonstrated mastery of the content; Completed Lambda Labs apprenticeship.Passed final assessments and interview demonstrating my technical and professional proficiencies."
         },
         {
           "school": "University of Phoenix",
@@ -70,11 +71,11 @@ const resumeData =  {
           "company": "A World of Whimsy",
           "title": "Owner",
           "years": "April 2019 - Present",
-          "description": "All asepcts of starting and operating an online retail shop"
+          "description": "All aspects of starting and operating an online retail shop"
         },
         {
           "company": "Unity of Greenville",
-          "title": "Program Manager (Non-Profit)",
+          "title": "Co-Minister/Program Manager (Non-Profit)",
           "years": "November 2007 - Present",
           "description": "All aspects of management in a non-profit setting"
         }
